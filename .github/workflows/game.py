@@ -28,3 +28,14 @@ def check_guess(mylist, guess):
         print("correct")
     else:
         print("Wrong guess!")
+
+
+#INTITAL LIST
+mylist = [ '','O', '']
+#SHUFFLE LIST
+mixedup_list = shuffle_list(mylist)
+#USER GUESS
+guess = player_guess()
+#CHECK GUESS
+check_guess(mixedup_list,guess)
+    
