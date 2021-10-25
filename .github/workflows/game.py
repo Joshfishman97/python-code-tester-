@@ -23,6 +23,10 @@ def player_guess():
 
 player_guess()
 
+myindex = player_guess()
+
+myindex
+
 def check_guess(mylist, guess):
     if mylist[guess] == 'O':
         print("correct")
